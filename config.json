@@ -1,0 +1,130 @@
+{
+    "apps":
+    [
+        {
+            "name": "Things3",
+            "version": "ALL",
+            "injectFile": "Sparkle.framework/Versions/B/Sparkle"
+        },
+        {
+            "name": "BlueHarvest",
+            "version": "ALL",
+            "injectFile": "Sparkle.framework/Versions/A/Sparkle"
+        },
+        {
+            "name": "Kaleidoscope",
+            "version": "ALL",
+            "injectFile": "SofaUIKit.framework/Versions/A/SofaUIKit"
+        },
+        {
+            "name": "ServerCat",
+            "version": "ALL",
+            "injectMain": true,
+            "injectFile": "ServerCat"
+        },
+        {
+            "name": "Sip",
+            "version": "ALL",
+            "injectFile": "Sparkle.framework/Versions/A/Sparkle"
+        },
+        {
+            "name": "MediaCenter",
+            "version": "ALL",
+            "injectFile": "AMSMB2.framework/Versions/A/AMSMB2"
+        },
+        {
+            "name": "eudic",
+            "version": "ALL",
+            "injectFile": "Sparkle.framework/Versions/A/Sparkle"
+        },
+        {
+            "name": "PastePal",
+            "version": "ALL",
+            "injectFile": "Sparkle.framework/Versions/B/Sparkle"
+        },
+        {
+            "name": "Paste",
+            "version": "ALL",
+            "injectMain": true,
+            "injectFile": "Paste"
+        },
+        {
+            "name": "TablePlus",
+            "version": "ALL",
+            "injectFile": "Sparkle.framework/Versions/B/Sparkle"
+        },
+        {
+            "name": "AppLocker",
+            "version": "ALL",
+            "injectFile": "AppStore_for_Mac.framework/Versions/A/AppStore_for_Mac"
+        },
+        {
+            "name": "One Switch",
+            "version": "ALL",
+            "injectFile": "Sparkle.framework/Versions/B/Sparkle",
+            "fixHelper": true,
+            "helperPath": "studio.fireball.OneSwitch.PrivilegedHelper"
+        },
+        {
+            "name": "APTV",
+            "version": "ALL",
+            "injectFile": "libavdevice.framework/Versions/A/libavdevice"
+        },
+        {
+            "name": "Flow",
+            "version": "ALL",
+            "injectMain": true,
+            "injectFile": "Flow"
+        },
+        {
+            "name": "VideoConverterX",
+            "version": "ALL",
+            "injectFile": "ffmpegkit.framework/Versions/A/ffmpegkit"
+        },
+        {
+            "name": "Sleep Control Center",
+            "version": "ALL",
+            "injectMain": true,
+            "injectFile": "Sleep Control Center"
+        },
+        {
+            "name": "Text Scanner",
+            "version": "ALL",
+            "injectFile": "Device.framework/Versions/A/Device"
+        },
+        {
+            "name": "Querious",
+            "version": "ALL",
+            "injectFile": "SQLParse.framework/Versions/A/SQLParse"
+        },
+        {
+            "name": "BuhoCleaner",
+            "version": "ALL",
+            "injectFile": "SnapKit.framework/Versions/A/SnapKit",
+            "fixHelper": true,
+            "helperPath": "com.drbuho.BuhoCleaner.PrivilegedHelperTool"
+        },
+        {
+            "name": "AnySwitch",
+            "version": "ALL",
+            "injectMain": true,
+            "injectFile": "AnySwitch"
+        },
+        {
+            "name": "Sketch",
+            "version": "ALL",
+            "injectFile": "Bugsnag.framework/Versions/A/Bugsnag"
+        },
+        {
+              "name": "Forklift",
+              "version": "ALL",
+              "noSginCmd":"defaults write com.binarynights.ForkLift registrationData -data \"7B227175616E74697479223A393939392C2276616C696469747944617465223A333132343032323430302C227369676E6174757265223A224B65276420627920426C695A7A617264222C226E616D65223A224B65276420627920426C695A7A617264222C226C6963656E73655F74797065223A312C226C6963656E73654B6579223A224B65276420627920426C695A7A617264227D\""
+        },
+        {
+            "name": "OneWall",
+            "version": "ALL",
+            "injectMain": true,
+            "injectFile": "OneWall"
+        }
+    ]
+}
